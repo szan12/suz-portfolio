@@ -1,12 +1,9 @@
 import {
-  Instagram,
+    Github,
   Linkedin,
   Mail,
   MapPin,
   Phone,
-  Send,
-  Twitch,
-  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 // import { useToast } from "@/hooks/use-toast";
@@ -56,10 +53,10 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:angsuzanne1231@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@gmail.com
+                    angsuzanne1231@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,7 +70,7 @@ export const ContactSection = () => {
                     href="tel:+11234567890"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (123) 456-7890
+                    +6 (010) 389 5091
                   </a>
                 </div>
               </div>
@@ -84,7 +81,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Kuala Lumpur, Malaysia
                   </a>
                 </div>
               </div>
@@ -93,17 +90,11 @@ export const ContactSection = () => {
             <div className="pt-8">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
-                <a href="#" target="_blank">
+                <a href="https://linkedin.com/in/angsuzanne" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
-                  <Twitter />
-                </a>
-                <a href="#" target="_blank">
-                  <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
+                <a href="https://github.com/szan12" target="_blank">
+                  <Github />
                 </a>
               </div>
             </div>

@@ -13,8 +13,8 @@ export const HeroSection = () => {
                         <span className="text-primary opacity-0 animate-fade-in-delay-1">Suzanne</span>
                     </h1>
 
-                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I build things — frontend, backend, and everything in between. To me, technology is like space: vast, ever-evolving, and full of discovery.
+                    <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                        I build things — from frontend interfaces to backend systems. Lately, I’ve been diving into the depths of backend development, exploring scalable architectures, clean code, and technologies as vast as the universe.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
