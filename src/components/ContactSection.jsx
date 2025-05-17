@@ -1,9 +1,12 @@
 import {
+  Codepen,
     Github,
+  LetterText,
   Linkedin,
   Mail,
   MapPin,
   Phone,
+  Plane,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 // import { useToast } from "@/hooks/use-toast";
@@ -34,56 +37,46 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          I’m currently open to new opportunities. 
+          Feel free to reach out if you’d like to collaborate or have something interesting in mind!
         </p>
+
+        {/* <div className="text-center">
+          <a
+            className="cosmic-button w-fit flex items-center mx-auto gap-2"
+            target="_blank"
+            href="https://github.com/machadop1407"
+          >
+            Say Hello
+          </a>
+        </div> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">
+            {/* <h3 className="text-2xl font-semibold mb-6">
               {" "}
               Contact Information
-            </h3>
+            </h3> */}
 
             <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Email</h4>
                   <a
                     href="mailto:angsuzanne1231@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     angsuzanne1231@gmail.com
                   </a>
-                </div>
               </div>
-              <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Phone className="h-6 w-6 text-primary" />{" "}
-                </div>
-                <div>
-                  <h4 className="font-medium"> Phone</h4>
-                  <a
-                    href="tel:+11234567890"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    +6 (010) 389 5091
-                  </a>
-                </div>
-              </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex items-center space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
-                  <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Kuala Lumpur, Malaysia
                   </a>
-                </div>
               </div>
             </div>
 
@@ -95,6 +88,9 @@ export const ContactSection = () => {
                 </a>
                 <a href="https://github.com/szan12" target="_blank">
                   <Github />
+                </a>
+                <a href="https://codepen.io/angsuzanne" target="_blank">
+                  <Codepen />
                 </a>
               </div>
             </div>
