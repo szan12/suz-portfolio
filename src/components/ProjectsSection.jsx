@@ -3,31 +3,40 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "ConSite APP",
+    description: "A construction site helmet detection mobile application prototype. Main features: detect helmet on workers and send notification to users.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["TensorFlow", "Android Studio", "Direbase"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "PSM Management System",
+    description: "A system for managing and evaluating FYP, target users are students and lecturers.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["PHP", "Laravel", "MySQL"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "VR Showhouse",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "User-interative virtual reality showhouse. Built on Vizard, a VR software development platform.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
+    tags: ["Vizard", "Google SketchUp"],
+    demoUrl: "https://youtu.be/a79Xy5GxN6g",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Stationery Inventory System",
+    description:
+      "A platform for handling inventory, make quotations, and allowing buyers to book inventory from the store.",
+    image: "/projects/project3.png",
+    tags: ["Java", "Swing GUI", "MySQL"],
+    demoUrl: "https://youtu.be/tbpcUlUxgnM",
     githubUrl: "#",
   },
 ];
@@ -42,8 +51,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Here are some of my projects during my university years.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

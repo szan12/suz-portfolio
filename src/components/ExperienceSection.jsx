@@ -6,25 +6,30 @@ import {
 
 const experienceData = [
   {
-    company: "TechNova Inc.",
-    role: "Frontend Developer",
-    duration: "Jan 2022 – Present",
+    company: "Hokenso Sdn. Bhd. (A subsidiary of Hitachi eBworx)",
+    role: "Full Stack Engineer",
+    duration: "Oct 2023 – Present",
     icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
     description: [
-      "Led development of a modular design system using React and Tailwind.",
-      "Implemented dynamic dashboards with real-time data sync.",
-      "Optimized performance and accessibility across browsers.",
+      "Developed and maintained microservices-based backend solutions using Spring Boot, ensuring scalable and maintainable architecture.",
+      "Built responsive and interactive user interfaces using Vue.js, integrating seamlessly with backend APIs.",
+      "Contributed to CI/CD pipelines using tools like Jenkins and Bamboo, automating build, test, and deployment processes.",
+      "Utilized GitLab and Bitbucket for version control, code collaboration, and merge request workflows.",
+      "Deployed applications on Cloud Foundry with a focus on TAS (Tanzu Application Service), ensuring efficient cloud-native deployments.",
+      "Collaborated with cross-functional teams to deliver high-quality software in Agile/Scrum environments.",
+
     ],
   },
   {
-    company: "CodeVerse Solutions",
+    company: "Fusionex Corp, Petaling Jaya",
     role: "Software Engineer Intern",
-    duration: "Jun 2021 – Dec 2021",
+    duration: "Mar 2023 - Aug 2023",
     icon: <Code className="w-6 h-6 text-primary" />,
     description: [
-      "Contributed to full-stack feature builds using Node.js and React.",
-      "Integrated third-party APIs and wrote unit tests.",
-      "Collaborated with designers to refine UI/UX.",
+      "Build responsive web applications using MEVN (MongoDB, Express.js, Vue.js, Node.js).",
+      "Create RESTful API for the backend service and conduct thorough API testing with Postman to validate functionality.",
+      "Engage in Scrum methodology which includes daily and weekly task progress reporting, and regular sprint planning sessions.",
+      "Conduct testing with Mocha and Chai to uphold high code quality.",
     ],
   },
 ];
@@ -32,7 +37,7 @@ const experienceData = [
 export const ExperienceSection = () => {
   return (
     <section className="container my-16 animate-fade-in py-24 px-4 relative bg-secondary/30" id="experience">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Where I've <span className="text-primary"> Worked</span>
         </h2>
       <div className="space-y-8">
@@ -54,7 +59,7 @@ export const ExperienceSection = () => {
               <div className="text-sm text-foreground opacity-70">
                 {exp.duration}
               </div>
-              <ul className="mt-3 list-disc list-inside text-sm opacity-90 space-y-1">
+              <ul className="mt-3 list-disc text-sm opacity-90 space-y-1">
                 {exp.description.map((line, i) => (
                   <li key={i}>{line}</li>
                 ))}
