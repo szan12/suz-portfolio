@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "ConSite APP",
     description: "A construction site helmet detection mobile application prototype. Main features: detect helmet on workers and send notification to users.",
-    image: "/projects/project1.png",
+    image: "/src/projects/fyp.png",
     tags: ["TensorFlow", "Android Studio", "Direbase"],
     demoUrl: "#",
     githubUrl: "#",
@@ -14,27 +14,27 @@ const projects = [
     id: 2,
     title: "PSM Management System",
     description: "A system for managing and evaluating FYP, target users are students and lecturers.",
-    image: "/projects/project2.png",
+    image: "/src/projects/psm.png",
     tags: ["PHP", "Laravel", "MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/hoshuxian/fyp_psm",
   },
   {
     id: 3,
     title: "VR Showhouse",
     description:
       "User-interative virtual reality showhouse. Built on Vizard, a VR software development platform.",
-    image: "/projects/project3.png",
+    image: "/src/projects/vr.png",
     tags: ["Vizard", "Google SketchUp"],
     demoUrl: "https://youtu.be/a79Xy5GxN6g",
-    githubUrl: "#",
+    githubUrl: "https://github.com/szan12/VR-showhouse",
   },
   {
     id: 4,
     title: "Stationery Inventory System",
     description:
       "A platform for handling inventory, make quotations, and allowing buyers to book inventory from the store.",
-    image: "/projects/project3.png",
+    image: "/src/projects/sis.png",
     tags: ["Java", "Swing GUI", "MySQL"],
     demoUrl: "https://youtu.be/tbpcUlUxgnM",
     githubUrl: "#",
@@ -108,7 +108,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/szan12"
           >
             Check My Github <ArrowRight size={16} />
           </a>
