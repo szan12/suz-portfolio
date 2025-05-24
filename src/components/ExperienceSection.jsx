@@ -32,6 +32,29 @@ const experienceData = [
       "Conduct testing with Mocha and Chai to uphold high code quality.",
     ],
   },
+  {
+    company: "InsightzClub, Kuala Lumpur",
+    role: "Customer Success Intern",
+    duration: "Aug 2021 - Sep 2021",
+    icon: <Briefcase className="w-6 h-6 text-primary" />,
+    description: [
+      "A semester break job during MCO.",
+      "Contributed to the backend operations in conducting consumer insights, namely translation overlays and survey scripting.",
+      "Set up dashboards featuring survey insights for clients.",
+      "Assisted in sending out cost requests to vendors for gathering survey respondents.",
+    ],
+  },
+  {
+    company: "AIA Insurance, Ipoh",
+    role: "Administrative Clerk",
+    duration: "Jan 2019 - Aug 2019",
+    icon: <Briefcase className="w-6 h-6 text-primary" />,
+    description: [
+      "Managed, compiled, and maintained client and company records.",
+      "Processed clients' policy applications and claims daily.",
+      "Followed up on policy renewals and prepared monthly renewal lists for tracking policy premiums due.",
+    ],
+  },
 ];
 
 export const ExperienceSection = () => {

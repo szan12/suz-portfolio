@@ -7,8 +7,7 @@ const projects = [
     description: "A construction site helmet detection mobile application prototype. Main features: detect helmet on workers and send notification to users.",
     image: "/src/projects/fyp.png",
     tags: ["TensorFlow", "Android Studio", "Direbase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "/src/files/CB19103_THESIS.pdf",
   },
   {
     id: 2,
@@ -16,7 +15,6 @@ const projects = [
     description: "A system for managing and evaluating FYP, target users are students and lecturers.",
     image: "/src/projects/psm.png",
     tags: ["PHP", "Laravel", "MySQL"],
-    demoUrl: "#",
     githubUrl: "https://github.com/hoshuxian/fyp_psm",
   },
   {
@@ -37,7 +35,7 @@ const projects = [
     image: "/src/projects/sis.png",
     tags: ["Java", "Swing GUI", "MySQL"],
     demoUrl: "https://youtu.be/tbpcUlUxgnM",
-    githubUrl: "#",
+    githubUrl: "https://github.com/szan12/stationery-inventory-system",
   },
 ];
 
@@ -83,20 +81,20 @@ export const ProjectsSection = () => {
                 </p>
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
-                    <a
+                    {project.demoUrl && (<a
                       href={project.demoUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <ExternalLink size={20} />
-                    </a>
-                    <a
+                    </a>)}
+                    {project.githubUrl && (<a
                       href={project.githubUrl}
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
                       <Github size={20} />
-                    </a>
+                    </a>)}
                   </div>
                 </div>
               </div>
