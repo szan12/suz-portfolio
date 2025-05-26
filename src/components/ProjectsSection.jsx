@@ -6,7 +6,7 @@ const projects = [
     title: "ConSite APP",
     description: "A construction site helmet detection mobile application prototype. Main features: detect helmet on workers and send notification to users.",
     image: "/src/projects/fyp.png",
-    tags: ["TensorFlow", "Android Studio", "Direbase"],
+    tags: ["TensorFlow", "Android Studio", "Firebase"],
     demoUrl: "/src/files/CB19103_THESIS.pdf",
   },
   {
