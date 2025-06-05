@@ -12,10 +12,10 @@ const experienceData = [
     icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
     description: [
       "Developed and maintained microservices-based backend solutions using Spring Boot, ensuring scalable and maintainable architecture.",
-      "Built responsive and interactive user interfaces using Vue.js, integrating seamlessly with backend APIs.",
-      "Contributed to CI/CD pipelines using tools like Jenkins and Bamboo, automating build, test, and deployment processes.",
-      "Utilized GitLab and Bitbucket for version control, code collaboration, and merge request workflows.",
-      "Deployed applications on Cloud Foundry with a focus on TAS (Tanzu Application Service), ensuring efficient cloud-native deployments.",
+      "Built responsive and interactive user interfaces using Vue.js, integrating with backend APIs.",
+      "Contributed to CI/CD pipelines using tools like Jenkins and Bamboo.", // , automating build, test, and deployment processes.
+      "Utilized GitLab and Bitbucket for version control and merge request workflows.",
+      // "Deployed applications on Cloud Foundry with a focus on TAS (Tanzu Application Service), ensuring efficient cloud-native deployments.",
       "Collaborated with cross-functional teams to deliver high-quality software in Agile/Scrum environments.",
 
     ],
