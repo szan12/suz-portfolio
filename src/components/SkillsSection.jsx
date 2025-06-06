@@ -22,6 +22,7 @@ const skills = [
   { name: "Firebase", level: 50, category: "backend" },
   { name: "PHP", level: 60, category: "backend" },
   { name: "Laravel", level: 60, category: "backend" },
+  { name: "Python", level: 60, category: "backend" },
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
@@ -29,6 +30,8 @@ const skills = [
   { name: "Bamboo CI/CD", level: 80, category: "tools" },
   { name: "Jenkins", level: 80, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+  { name: "Mocha", level: 50, category: "tools" },
+  { name: "Chai", level: 50, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];
