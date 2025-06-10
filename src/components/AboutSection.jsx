@@ -1,39 +1,7 @@
 import { Briefcase, Code, User } from "lucide-react";
-import React, { useEffect, useRef  } from "react";
+import React from "react";
 
 export const AboutSection = () => {
-  const scrollRef = useRef(null);
-
- useEffect(() => {
-    const scrollContainer = scrollRef.current;
-    let scrollAmount = 0;
-    const scrollStep = 1;
-    const scrollInterval = 30; // smaller = faster scroll
-
-    const scroll = () => {
-      if (scrollContainer) {
-        scrollAmount += scrollStep;
-        if (scrollAmount >= scrollContainer.scrollHeight / 2) {
-          scrollAmount = 0;
-          scrollContainer.scrollTop = 0;
-        } else {
-          scrollContainer.scrollTop = scrollAmount;
-        }
-      }
-    };
-
-    const interval = setInterval(scroll, scrollInterval);
-    return () => clearInterval(interval);
-  }, []);
-
-  const images = [
-    "/pictures/profile.jpeg",
-    "/pictures/profile2.jpeg",
-    "/pictures/profile3.jpeg",
-  ];
-
-  // Duplicate images to create seamless loop
-  const allImages = [...images, ...images];
 
   return (
     <section id="about" className="py-24 px-4 relative">
@@ -102,73 +70,6 @@ export const AboutSection = () => {
               </div>
             </div>
           </div>
-
-
-          {/* Right: vertical auto-scrolling profile images */}
-          {/* <div className="h-64 w-64 overflow-hidden rounded-full border-4 border-primary shadow-lg mx-auto">
-            <div
-              ref={scrollRef}
-              className="h-full w-full overflow-hidden"
-              style={{ scrollBehavior: "smooth", overflowY: "hidden" }}
-            >
-              <div className="flex flex-col">
-                {allImages.map((img, i) => (
-                  <img
-                    key={i}
-                    src={img}
-                    alt={`Profile ${i}`}
-                    className="w-full h-64 object-cover flex-shrink-0"
-                  />
-                ))}
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div className="grid grid-cols-1 gap-6">
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
-                  <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary" />
-                </div>
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
-                  <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="gradient-border p-6 card-hover">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary" />
-                </div>
-
-                <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
     </section>

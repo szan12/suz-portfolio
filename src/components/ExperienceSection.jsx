@@ -61,8 +61,8 @@ export const ExperienceSection = () => {
   return (
     <section className="container my-16 animate-fade-in py-24 px-4 relative bg-secondary/30" id="experience">
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-            Where I've <span className="text-primary"> Worked</span>
-        </h2>
+          Where I've <span className="text-primary"> Worked</span>
+      </h2>
       <div className="space-y-8">
         {experienceData.map((exp, index) => (
           <div

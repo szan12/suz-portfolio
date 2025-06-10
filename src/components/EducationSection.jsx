@@ -1,5 +1,6 @@
 import { GraduationCap, School } from "lucide-react";
 
+const educationImage = "/pictures/education/ump.jpg";
 const educationData = [
   {
     institution: "Universiti Malaysia Pahang (UMP)",
@@ -46,17 +47,38 @@ export const EducationSection = () => {
       <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
         My <span className="text-primary">Education</span>
       </h2>
-      <div className="space-y-8">
-        {educationData.map((edu, index) => (
-          <div
-            key={index}
-            className="gradient-border card-hover bg-card p-6 rounded-xl shadow transition-all animate-fade-in w-full md:w-[80%] lg:w-[60%] mx-auto"
-            style={{
-              animationDelay: `${index * 0.2}s`,
-              animationFillMode: "forwards",
-            }}
-          >
-            
+
+      <div className="flex flex-col lg:flex-row gap-8 items-center">
+        {/* Image on the left */}
+        <div className="relative w-full max-w-xs">
+          {/* Image with hover effect */}
+          <div className="relative w-full h-full rounded-2xl overflow-hidden z-10 gradient-border card-hover transition-all duration-300">
+            <img
+              src={educationImage}
+              alt="Profile"
+              className="w-full h-full object-cover rounded-2xl"
+            />
+          </div>
+        </div>
+
+        {/* <img
+          src={educationImage}
+          alt="Education Illustration"
+          className="w-72 h-72 object-cover rounded-full shadow-lg mr-0 lg:mr-2 mb-8 lg:mb-0"
+        /> */}
+
+        {/* Education cards on the right */}
+        <div className="space-y-8 flex-1 w-full">
+          {educationData.map((edu, index) => (
+            <div
+              key={index}
+              className="gradient-border card-hover bg-card p-6 rounded-xl shadow transition-all animate-fade-in w-full md:w-[80%] lg:w-[70%] mx-auto"
+              style={{
+                animationDelay: `${index * 0.2}s`,
+                animationFillMode: "forwards",
+              }}
+            >
+              
             <div className="text-left space-y-2">
               <div className="flex items-center gap-3">
                 {edu.icon}
@@ -72,8 +94,9 @@ export const EducationSection = () => {
                 ))}
               </ul> */}
             </div>
-          </div>
-        ))}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
