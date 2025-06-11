@@ -14,7 +14,7 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        I build things — from frontend interfaces to backend systems. Lately, I’ve been diving into the depths of backend development, exploring scalable architectures, clean code, and technologies as vast as the universe.
+                        I build things — from frontend interfaces to backend systems. Lately, I’ve been diving into the depths of backend development, exploring technologies as vast as the universe.
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">

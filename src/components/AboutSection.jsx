@@ -18,10 +18,16 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              Hello! I'm Suzanne, born and raised in Ipoh, Perak, Malaysia. 
-              I enjoy learning new things and challenging myself to grow as a developer. 
-              I'm currently working as a Full Stack Developer at Hokenso, where I build responsive, 
-              accessible, and performant web applications — focusing on both frontend and backend development.
+              Born and raised in Ipoh, Perak, Malaysia. 
+              {/* I'm a developer passionate about building the backend logic that makes everything work. */}
+              I enjoy learning new technologies and constantly challenging myself to grow in this ever-evolving field.
+              I'm currently a Full Stack Developer at Hokenso, where I build responsive and high-performance web applications, 
+              contributing to both the frontend and backend.
+              I'm now looking for new opportunities that allow me to dive deeper into the backend development,
+              where I can apply the knowledge and experience I've gained over the past two years in the industry.
+            </p>
+            <p>
+              Outside of work, I love being in nature, sipping on a good latte, and watching movies to unwind.
             </p>
 
             <p className="text-muted-foreground mt-4">
@@ -29,12 +35,12 @@ export const AboutSection = () => {
             </p>
 
             <ul className="grid grid-cols-2 gap-y-2 mt-2 text-muted-foreground text-sm list-disc list-inside text-left">
+              <li>Spring Boot</li>
               <li>Vue.js</li>
               <li>Jenkins</li>
-              <li>Spring Boot</li>
               <li>Bamboo</li>
               <li>Microservice</li>
-              <li>Vue.js</li>
+              <li>mySQL</li>
             </ul>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
