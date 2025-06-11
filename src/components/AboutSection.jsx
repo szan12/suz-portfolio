@@ -19,7 +19,6 @@ export const AboutSection = () => {
 
             <p className="text-muted-foreground">
               Born and raised in Ipoh, Perak, Malaysia. 
-              {/* I'm a developer passionate about building the backend logic that makes everything work. */}
               I enjoy learning new technologies and constantly challenging myself to grow in this ever-evolving field.
               I'm currently a Full Stack Developer at Hokenso, where I build responsive and high-performance web applications, 
               contributing to both the frontend and backend.
