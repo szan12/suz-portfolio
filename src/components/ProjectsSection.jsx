@@ -7,7 +7,7 @@ const projects = [
     description: "A construction site helmet detection mobile application prototype. Main features: detect helmet on workers and send notification to users.",
     image: "/pictures/projects/fyp.png",
     tags: ["TensorFlow", "Android Studio", "Firebase"],
-    demoUrl: "/public/files/CB19103_THESIS.pdf",
+    demoUrl: "/pictures/projects/CB19103_THESIS.pdf",
   },
   {
     id: 2,
