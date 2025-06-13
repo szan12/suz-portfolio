@@ -84,7 +84,8 @@ export const ContactSection = () => {
                   <DownloadCloud className="h-6 w-6 text-primary" />{" "}
                 </div>
                   <a 
-                    href=""
+                    href="/resume.pdf"
+                    target="_blank"
                     className="text-muted-foreground hover:text-primary transition-colors">
                     Resume
                   </a>

@@ -12,11 +12,13 @@ const experienceData = [
     icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
     description: [
       "Developed and maintained a web-based point-of-sale bancassurance platform using a microservices architecture with Spring Boot, ensuring scalability and maintainability.",
-      "Built responsive, interactive user interfaces with Vue.js, integrating seamlessly with backend REST APIs.",
-      "Contributed to CI/CD pipelines using Jenkins and Bamboo to automate build, test, and deployment processes.",
-      "Utilized GitLab and Bitbucket for version control and merge request workflows.",
-      // "Deployed applications on Cloud Foundry with a focus on TAS (Tanzu Application Service), ensuring efficient cloud-native deployments.",
-      "Worked closely with cross-functional teams in Agile/Scrum environments to deliver high-quality, customer-focused software solutions."
+      "Managed and maintained the database, writing SQL queries for efficient CRUD operations.",
+      "Built responsive and interactive user interfaces using Vue.js, integrating seamlessly with backend RESTful APIs.",
+      "Maintained third-party insurance rate and premium calculators and coordinated with clients to resolve rate discrepancies.",
+      "Generated and populated data into quotation PDFs using Jasper Reports.",
+      "Contributed to CI/CD pipelines using Jenkins and Bamboo, automating build, test, and deployment processes.",
+      "Utilized GitLab and Bitbucket for version control and collaborative merge request workflows.",
+      "Collaborated with cross-functional teams in Agile environments to deliver high-quality, customer-focused insurance software solutions.",
     ],
   },
   {
@@ -25,10 +27,10 @@ const experienceData = [
     duration: "Mar 2023 - Aug 2023",
     icon: <Code className="w-6 h-6 text-primary" />,
     description: [
-      "Build responsive web applications using MEVN (MongoDB, Express.js, Vue.js, Node.js).",
-      "Create RESTful API for the backend service and conduct thorough API testing with Postman to validate functionality.",
-      "Engage in Scrum methodology which includes daily and weekly task progress reporting, and regular sprint planning sessions.",
-      "Conduct testing with Mocha and Chai to uphold high code quality.",
+      "Built a responsive Malaysian Customs web application using MEVN (MongoDB, Express.js, Vue.js, Node.js).",
+      "Developed RESTful API for the backend service and conduct thorough API testing with Postman to validate functionality.",
+      "Engaged in Scrum methodology which includes daily and weekly task progress reporting, and regular sprint planning sessions.",
+      "Conducted testing with Mocha and Chai to uphold high code quality.",
     ],
   },
   {

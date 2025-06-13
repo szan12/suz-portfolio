@@ -15,7 +15,7 @@ const educationData = [
   },
   {
     institution: "SMK Methodist (ACS), Ipoh",
-    degree: "Sijil Tinggi Pelajaran Malaysia (STPM), Science Stream",
+    degree: "Malaysian Higher School Certificate (STPM), Science Stream",
     duration: "2017 - 2018",
     icon: <School className="w-6 h-6 text-primary" />,
     // details: [
@@ -26,7 +26,7 @@ const educationData = [
   },
   {
     institution: "Methodist Girls' School (MGS), Ipoh",
-    degree: "Sijil Pelajaran Malaysia (SPM), Science Stream",
+    degree: "Malaysian Certificate of Education (SPM), Science Stream",
     duration: "2015 - 2016",
     icon: <School className="w-6 h-6 text-primary" />,
     // details: [
