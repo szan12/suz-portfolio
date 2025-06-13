@@ -12,7 +12,7 @@ export const AboutSection = () => {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+          <div className="space-y-3">
             <h3 className="text-2xl font-semibold">
               Passionate Software Engineer
             </h3>
@@ -20,6 +20,8 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               Born and raised in Ipoh, Perak, Malaysia. 
               I enjoy learning new technologies and constantly challenging myself to grow in this ever-evolving field.
+            </p>
+            <p>
               I'm currently a Full Stack Developer at Hokenso, where I build responsive and high-performance web applications, 
               contributing to both the frontend and backend.
               I'm now looking for new opportunities that allow me to dive deeper into the backend development,

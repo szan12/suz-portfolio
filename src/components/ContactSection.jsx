@@ -7,6 +7,7 @@ import {
   MapPin,
   Phone,
   Plane,
+  DownloadCloud,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 // import { useToast } from "@/hooks/use-toast";
@@ -76,6 +77,16 @@ export const ContactSection = () => {
                 </div>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Kuala Lumpur, Malaysia
+                  </a>
+              </div>
+              <div className="flex items-center space-x-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <DownloadCloud className="h-6 w-6 text-primary" />{" "}
+                </div>
+                  <a 
+                    href=""
+                    className="text-muted-foreground hover:text-primary transition-colors">
+                    Resume
                   </a>
               </div>
             </div>

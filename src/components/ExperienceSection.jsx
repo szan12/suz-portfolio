@@ -11,13 +11,12 @@ const experienceData = [
     duration: "Oct 2023 – Present",
     icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
     description: [
-      "Developed and maintained microservices-based backend solutions using Spring Boot, ensuring scalable and maintainable architecture.",
-      "Built responsive and interactive user interfaces using Vue.js, integrating with backend APIs.",
-      "Contributed to CI/CD pipelines using tools like Jenkins and Bamboo.", // , automating build, test, and deployment processes.
+      "Developed and maintained a web-based point-of-sale bancassurance platform using a microservices architecture with Spring Boot, ensuring scalability and maintainability.",
+      "Built responsive, interactive user interfaces with Vue.js, integrating seamlessly with backend REST APIs.",
+      "Contributed to CI/CD pipelines using Jenkins and Bamboo to automate build, test, and deployment processes.",
       "Utilized GitLab and Bitbucket for version control and merge request workflows.",
       // "Deployed applications on Cloud Foundry with a focus on TAS (Tanzu Application Service), ensuring efficient cloud-native deployments.",
-      "Collaborated with cross-functional teams to deliver high-quality software in Agile/Scrum environments.",
-
+      "Worked closely with cross-functional teams in Agile/Scrum environments to deliver high-quality, customer-focused software solutions."
     ],
   },
   {
