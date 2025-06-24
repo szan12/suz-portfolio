@@ -6,7 +6,7 @@ import {
 
 const experienceData = [
   {
-    company: "Hokenso Sdn. Bhd. (A subsidiary of Hitachi eBworx)",
+    company: "Hokenso Sdn. Bhd. (A subsidiary of Hitachi eBworx) • Petaling Jaya, Selangor, Malaysia",
     role: "Full Stack Engineer",
     duration: "Oct 2023 – Present",
     icon: <MonitorSmartphone className="w-6 h-6 text-primary" />,
@@ -22,7 +22,7 @@ const experienceData = [
     ],
   },
   {
-    company: "Fusionex Corp, Petaling Jaya",
+    company: "Fusionex Corp • Petaling Jaya, Selangor, Malaysia",
     role: "Software Engineer Intern",
     duration: "Mar 2023 - Aug 2023",
     icon: <Code className="w-6 h-6 text-primary" />,
@@ -34,7 +34,7 @@ const experienceData = [
     ],
   },
   {
-    company: "InsightzClub, Kuala Lumpur",
+    company: "InsightzClub • Kuala Lumpur, Malaysia",
     role: "Customer Success Intern",
     duration: "Aug 2021 - Sep 2021",
     icon: <Briefcase className="w-6 h-6 text-primary" />,
@@ -46,7 +46,7 @@ const experienceData = [
     ],
   },
   {
-    company: "AIA Insurance, Ipoh",
+    company: "AIA Insurance • Ipoh, Perak, Malaysia",
     role: "Administrative Clerk",
     duration: "Jan 2019 - Aug 2019",
     icon: <Briefcase className="w-6 h-6 text-primary" />,
